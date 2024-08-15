@@ -1,5 +1,7 @@
 import { View, Text, StyleSheet } from "react-native";
 import { Image } from 'expo-image'
+import { CgMenu } from "react-icons/cg";
+
 
 export default function Header(){
     return(
@@ -10,8 +12,7 @@ export default function Header(){
                 source="https://images.jota.info/wp-content/uploads/2015/06/neymar-brazil-wallpaper-confederations-cup-2013.jpg" />
               <Text style={styles.name}>NJR</Text>
             </View>
-            
-        <Text>Menu</Text>
+            <CgMenu style={styles.menu}/>
       </View>
     )
 }
@@ -39,5 +40,10 @@ const styles = StyleSheet.create({
   name: {
     fontWeight: '600',
     fontSize: 18
+  },
+  menu: {
+    width: 30,
+    height: 30,
+    padding: 10
   }
 })
