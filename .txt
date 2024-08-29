@@ -1,0 +1,20 @@
+ const accounts = [
+        {
+          id: 1,
+          service: "Gmail",
+          imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQmvE-UWwkOMDfh58HggMn6XxzXRBXTHoG6zkZOMy75IIv7H0KcsnZgD2IfVUuNCshVNA&usqp=CAU",
+          userName: "ricardopoololiveira@gmail.com"
+        },
+        {
+          id: 2,
+          service: "Instagram",
+          imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png",
+          userName: "@Rick_zzi"
+        },
+        {
+          id: 3,
+          service: "Github",
+          imgUrl: "https://cdn-icons-png.flaticon.com/512/25/25231.png",
+          userName: "aphelionxd"
+        }
+    ]
